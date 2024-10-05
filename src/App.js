@@ -5,8 +5,21 @@ import Tabla from './components/Tabla';
 function App() {
   return (
     <div className="App">
-     <Tabla/>
+       <header className="App-header">
+        TIC-TAC-TOE
+      </header>
+      <article>
+       
+      <Tabla/>
+        
+
+
+      
+      </article>
+      <footer>Botka Bianka</footer>
     </div>
+   
+   
   );
 }
 
