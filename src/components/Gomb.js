@@ -5,7 +5,7 @@ import React from "react";
 export default function Gomb({ szoveg, onClick }) {
     return (
         <button className="btn btn-primary mt-3" onClick={onClick}>
-            {szoveg} // A gomb szövegét a `szoveg` prop biztosítja
+            {szoveg} {/*A gomb szövegét a `szoveg` prop biztosítja*/}
         </button>
     );
 }
