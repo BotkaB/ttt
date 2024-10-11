@@ -1,26 +1,20 @@
 
 import './App.css';
-import Tabla from './components/Tabla';
+import Jatek from "./components/Jatek"; // Az import útvonal módosítása
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
        <header className="App-header">
         TIC-TAC-TOE
       </header>
       <article>
-       
-      <Tabla/>
-        
-
-
-      
+        <Jatek /> {/* Itt jelenítjük meg a Jatek komponenst */}
       </article>
       <footer>Botka Bianka</footer>
     </div>
-   
-   
   );
 }
 
-export default App;
+
