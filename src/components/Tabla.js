@@ -6,13 +6,13 @@ export default function Tabla() {
     const renderCella = (index) => (
 
         //a map a td elemet hozza létre, ezért ide rendeljük a key-t
-        <td key={index} style={{ padding: '0' }}>
+        
             <Cella
-            
+            key={index} style={{ padding: '0' }}
                 value={null} //beállítja nullra a cella értékét
                 onClick={() => { }}  //itt lesz a cella eseménykezelője elkapva
             />
-            </td>
+        
         
     );
 
