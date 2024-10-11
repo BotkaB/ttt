@@ -16,7 +16,7 @@ export default function Cella(props) {
                 fontSize: '24px' // Betűméret: 24px
             }}
         >
-            {props.value} // Megjeleníti a cella értékét
+            {props.value} 
         </td>
     );
 }
